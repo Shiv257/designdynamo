@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    font-family:Arial;
+    color: white;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+       
+}
+
+/* .nav-logo{
+    /* background-size: cover; */
+.panel{
+  background-color: rgba(255, 159, 6, 0.761);
+  display: flex;
+  height: 60px;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.panel-icon{
+    margin-right: 100px;
+}
+.panel-search{
+  width: 600px;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  right: 0;
+   
+}
+.panel-search i{
+    background-color: rgba(14, 11, 0, 0.558) ;
+}
+.welcome {
+    font-weight: 700;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    margin-left: 570px;
+
+}
+.welcome p{
+    color: rgb(255, 255, 255);
+    
+}
+.menu{
+    display: flex;
+}
+.menu-table{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    border: 2px solid transparent;
+        border-collapse: collapse;
+    height: 600px;
+}
+
+td{
+border: 2px solid white;
+height: 100px;
+}
+.menu-img{
+    width: 1100px;
+    height: 50px;
+}
+.menu-mid{
+    display: flex;
+    flex-direction: column;
+}
+.menu-content{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgb(210, 138, 22);
+}
+.menu-ann{
+    border: 1px dashed white;
+
+}
+.ann-title{
+    text-align: center;
+    font-family: 800;
+    border-bottom: 1px solid white;
+    font-size: 1.5rem;
+}
+.ann{
+    line-height: 20px;
+    color: rgba(228, 172, 3, 0.817);
+    font-size: 1.2rem;
+
+
+}
+li{
+    margin-bottom: 40px;
+}
+.menu-table tr :hover{
+  color: rgba(255, 162, 0, 0.631);
+}
+table{
+    border-collapse: collapse;
+}
+.ann li:hover{
+color: white;
+}
